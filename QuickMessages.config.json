@@ -1,0 +1,35 @@
+{
+    "currentVersionInfo": {
+        "version": "1.2.3",
+        "hasShownChangelog": true
+    },
+    "messages": [
+    ],
+    "categories": [
+        {
+            "name": "SqSupport",
+            "items": [
+                "Do you meet the min system requirements?\nPlease also checkt the **known Solutions to Freezing / Stuttering Issues** [ https://offworldindustries.zendesk.com/hc/en-us/articles/223535547-Freezing-Stuttering-Issue ]",
+                "Please refer to this for **information regarding Geforce Now** [ https://offworldindustries.zendesk.com/hc/en-us/articles/360043801274-Nvidia-GeForce-Now-Support ]",
+                "Please follow this guide for **Troubleshootig Audio Issues** [https://offworldindustries.zendesk.com/hc/en-us/articles/221596087-Troubleshooting-Audio-Issues]\nFor some headsets you can use this **Workarround for Audio Issues** [https://offworldindustries.zendesk.com/hc/en-us/articles/360002689113-Certain-headsets-not-working]",
+                "Please refer to **Steams guide on games getting not recognized** [ https://support.steampowered.com/kb_article.php?ref=8379-RYIP-2998 ]",
+                "Press [J] delete everything, then tpy `respawn`",
+                "Please ensure you have **Squad** and not **Squad PT** installed [https://media.discordapp.net/attachments/127841357636042753/862375981633634334/unknown.png]",
+                "Please take a look at the **Server Browser Troubleshooting** guide [https://offworldindustries.zendesk.com/hc/en-us/articles/234684847-Server-Browser-Issues]",
+                "In this case i would recommend **opening a ticket with OWI** [https://offworldindustries.zendesk.com/hc/en-us/requests/new]",
+                "You could also try the following:\n**Open Command Prompt as an administrator and run the following commands line by line**:\n\n```powershell\npowercfg -s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c\nRD /S /Q \"%localappdata%\\squad\"\nipconfig /flushdns\nnetsh winsock reset\nsc config \"GameScannerService\" start= disabled\nsc stop \"GameScannerService\"\n\n```\n***[!]** Note:This will delete your user cache which will reset all of your in-game settings including resolution and keybinds.*",
+                "For **issues with steam updates** please refer to their knowledge-base [https://support.steampowered.com/kb_article.php?ref=2274-IFLV-5334]",
+                "To **verify** your installation **with steam** follow these steps:\n> 1) Right click **squad** in your libary\n> 2) Click **properties**\n> 3) Navigate to **local files**\n> 4) Click on **\"Verify integrity of game files...\"**",
+                "Thats an **EAC Error** you can try these common fixes [https://offworldindustries.zendesk.com/hc/en-us/articles/221442887-Easy-Anti-Cheat-Errors], shoould the issue persist please refer to their website for further assistance [https://www.easy.ac/en-us/support/game/issues/guide/]",
+                "This is the **Squad Community** Discord, we do **not** issue nor revoke bans.\n> Bans are Issued by independent Communities, youll have to appeal directly with them.\n> If you want to **appeal** you can use the channel <#740477340873654282> on the discord linked in <#725790185794830376> to find the right discord.\n\nIn case you feel like **reporting** a server or its staff for **misconduct** you can email `licensing@offworldindustries.com` with the following details: \n> - Name of the server \n> -Any evidence such as video, pictures etc\n> -Date and time of incident\n*alternativly you can fill the form linked in <#725790185794830376> .*",
+                "**FIX TO TRY FOR **\n**\"Server closed connection\" ISSUE**\n\n**TRY FIRST IF RELEVANT TO YOU (ASUS GAMEFIRST)**\nAsus gamefirst is software that comes with/is related to Asus motherboards, if you have this software try disabling/removing this software and see if it resolved the issue.\n\n**FIRST STEP**\nhttps://offworldindustries.zendesk.com/hc/en-us/articles/221442887-Easy-Anti-Cheat-Errors\nStarting from the top of this page, follow it through and take OPTION 1. Looking further down the page, ensure Cheat engine is not running/even not installed. Then do Step 4 from OPTION 2, which is the Command Prompt step, remember to restart and open Command Prompt as Admin.\n\n**SECOND STEP**\nYou will then also need to set this.\nhttps://cdn.discordapp.com/attachments/127841357636042753/559445812707328011/500ping.png\n\n**THIRD STEP**\nTweak the priority on EAC client in task manager.\nBoot the game -> Task manager -> details -> easy anti cheat -> set priority -> realtime\n\n**FOURTH STEP** (If still facing issues)\nFollow this page through\nhttps://offworldindustries.zendesk.com/hc/en-us/articles/360023840633-NIC-Offloading\nIf it is possible, **have a wired internet connection.**"
+            ]
+        },
+        {
+            "name": "SqFAQ",
+            "items": [
+                "**Explanation Tech Dept.:**\n> Technical debt. Essentially outdated and in some cases intentional placeholder code/systems that over time become less viable and very limiting in what certain things can be done.\n\n> As a game develops and it's feature set and systems expand, especially if big things like engine upgrades happens, it can make older things harder to sustain, as it's not up to scratch and start limiting what can be done. This causes a variety of issues as time progresses, and you start forming legacy issues.\n\n> Sometimes elements of tech debt is intentional, as it's better to do X thing instead of Y at time, as it's faster to develop and you don't need Y yet, as Z wont be ready for a long time. "
+            ]
+        }
+    ]
+}
